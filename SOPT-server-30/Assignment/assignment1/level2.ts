@@ -23,6 +23,22 @@ const dinner: Dinner = {
       name: "남지윤",
       group: "ob",
     },
+    {
+      name: "공혁준",
+      group: "yb",
+    },
+    {
+      name: "김소령",
+      group: "ob",
+    },
+    {
+      name: "김희빈",
+      group: "yb",
+    },
+    {
+      name: "구건모",
+      group: "yb",
+    },
   ],
   shuffle(array) {
     array.sort(() => Math.random() - 0.5);
